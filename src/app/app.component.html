@@ -1,0 +1,9 @@
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<div class="navbar">
+  <a style="cursor: pointer" class="active" [routerLink]="['/']" routerLinkActive="router-link-active" ><i class="fa fa-fw fa-home"></i> Home</a>
+  <a style="cursor: pointer" [routerLink]="['/about']" routerLinkActive="router-link-active" ><i class="fa fa-fw fa-search"></i> About</a>
+  <a style="cursor: pointer" [routerLink]="['/contact']" routerLinkActive="router-link-active" ><i class="fa fa-fw fa-envelope"></i> Contact</a>
+
+</div>
+<router-outlet></router-outlet>
